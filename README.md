@@ -16,6 +16,22 @@ gitPod をベースに C/C++ の初歩教育をおこなうための環境テス
 	* 14日使っていない状態が続くと、workspace が消滅します。
 	* ファイルなどを置いておきたい人は、このページから `Download` ボタンを押せばよいでしょう。
 
+プログラムの実行（ターミナル）
+
+1. `Terminal` -> `New Terminal` でターミナルが開きます。
+2. あとは、gcc なりでコンパイルして、実行してみましょう。
+3. 以下は、`samples` directory の `hello.c` をコンパイルして実行した例
+
+```
+gitpod /workspace/podTest $ cd samples
+gitpod /workspace/podTest/samples $ ls
+hello.c
+gitpod /workspace/podTest/samples $ gcc hello.c 
+gitpod /workspace/podTest/samples $ ./a.out 
+Hello World!
+gitpod /workspace/podTest/samples $ 
+```
+
 プログラムの実行（例）
 
 1. `samples/hello.c` を開いてください。`samples` をクリックすると、directory の中のファイルも見えるはず。
