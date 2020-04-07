@@ -12,7 +12,7 @@ gitPod をベースに C/C++ の初歩教育をおこなうための環境テス
 
 ２回目からのアクセス
 
-1: https://gitpod.io/workspaces/ から、自分の実行したい workspace を選びましょう。
+1. https://gitpod.io/workspaces/ から、自分の実行したい workspace を選びましょう。
 	* 14日使っていない状態が続くと、workspace が消滅します。
 	* ファイルなどを置いておきたい人は、このページから `Download` ボタンを押せばよいでしょう。
 
