@@ -49,7 +49,7 @@ gitpod /workspace/podTest/samples $
 * tests
   * 今回ファイルをおいた場所
   * 別にプログラムファイルはお好きな場所に。
-* .gitpod.Dockerfile, .gitpod.yml: 実行環境の docker 設定および extension 設定
+* .gitpod.Dockerfile, .gitpod.yml: 実行環境の docker 設定および extension 設定 (参考：[C/C++](https://www.gitpod.io/docs/languages/cpp/), [.gitpod.yml](https://www.gitpod.io/docs/config-gitpod-file/))
 * README.md: このファイル
 
 
