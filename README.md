@@ -40,6 +40,11 @@ gitpod /workspace/podTest/samples $
    * ちょこちょこうまくいかないケースもあり。原因確認中
 3. `Debug`->`Start Debugging` でデバッグ開始
 
+情報共有
+
+* 演習時間中などに、学生の workspace の状態をみたければ、workspace 実行時の URL を送ってもらえば OK.
+  * `注`： https://gitpod.io/workspaces/ にて、当該 workspace を公開状態にしてもらう必要がある。
+
 
 ## 中身のファイルの解説
 
