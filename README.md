@@ -1,20 +1,9 @@
-# podTest
+# 2020年度 プログラミング演習 1, 2 用レポジトリ
 
-gitPod をベースに C/C++ の初歩教育をおこなうための環境テスト
+## gitPod の使い方
 
-## gitPod での使い方
-
-初回アクセス
-
-1. github にアカウントをとっておく
-2. https://gitpod.io/#https://github.com/tomiokamada/podTest にアクセス
-3. 1-2分待ったほうがよいかも。（いくつかplugin が load されたりします）
-
-２回目からのアクセス
-
-1. https://gitpod.io/workspaces/ から、自分の実行したい workspace を選びましょう。
-	* 14日使っていない状態が続くと、workspace が消滅します。
-	* ファイルなどを置いておきたい人は、このページから `Download` ボタンを押せばよいでしょう。
+詳しい話は、[こちら](https://kobeucsenshu.github.io/ideinfo/index.html)の GitPod の項目ををみてください。
+以下、コンパイルの仕方などだけ、簡単にまとめます。
 
 プログラムの実行（ターミナル）
 
@@ -32,7 +21,7 @@ Hello World!
 gitpod /workspace/podTest/samples $ 
 ```
 
-プログラムの実行（例）
+プログラムの実行（GUI操作）
 
 1. `samples/hello.c` を開いてください。`samples` をクリックすると、directory の中のファイルも見えるはず。
 2. 実行タイププログラムを選んだ状態(`hello.c`選択）で、"Terminal"->"Run Build Task.." でコンパイル可能。選択肢が出ますので、`build gcc`をえらびましょう。同じ directory に `hello` ができれば成功
@@ -40,23 +29,19 @@ gitpod /workspace/podTest/samples $
    * `注2`: explorer 側で選択するだけでなく、エディタのフォーカスがあっている必要があるようです。
 3. `Debug`->`Start Debugging` でデバッグ開始
 
-情報共有
-
-* 演習時間中などに、学生の workspace の状態をみたければ、workspace 実行時の URL を送ってもらえば OK.
-  * `注`： https://gitpod.io/workspaces/ にて、当該 workspace を公開状態にしてもらう必要がある。
-
 
 ## 中身のファイルの解説
 
 * .theia
-  * tasks.json: Build の選択肢設定
-  * launch.json: プログラム起動の選択肢設定
-* tests
-  * 今回ファイルをおいた場所
+  * tasks.json: Build の選択肢設定, `よくわからない場合は、編集しないように`
+  * launch.json: プログラム起動の選択肢設定, `よくわからない場合は、編集しないように`
+* samples
+  * hello.c: 
   * 別にプログラムファイルはお好きな場所に。
-* .gitpod.Dockerfile, .gitpod.yml: 実行環境の docker 設定および extension 設定 (参考：[C/C++](https://www.gitpod.io/docs/languages/cpp/), [.gitpod.yml](https://www.gitpod.io/docs/config-gitpod-file/))
-* README.md: このファイル
+* kadai2, ...
+  * 各課題のためのファイル等が、後日 directory 毎に配置される予定です。皆さんは、`kadai` で始まるファイルなどを直下に配置しないようにお願いします。
 
+* README.md: このファイル。こちらも皆さんは編集しないようにしましょう。
+* .gitpod.Dockerfile, .gitpod.yml: 実行環境の docker 設定および extension 設定。`よくわからない場合は、編集しないように`。 (参考：[C/C++](https://www.gitpod.io/docs/languages/cpp/), [.gitpod.yml](https://www.gitpod.io/docs/config-gitpod-file/))
 
-  
 
