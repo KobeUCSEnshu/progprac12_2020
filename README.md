@@ -7,7 +7,7 @@
 
 プログラムの実行（ターミナル）
 
-1. `Terminal` -> `New Terminal` でターミナルが開きます。
+1. 画面右下にターミナルがでていると思いますが、無い場合は、`Terminal` -> `New Terminal` でターミナルが開きます。
 2. あとは、gcc なりでコンパイルして、実行してみましょう。
 3. 以下は、`samples` directory の `hello.c` をコンパイルして実行した例
 
@@ -43,5 +43,4 @@ gitpod /workspace/podTest/samples $
 
 * README.md: このファイル。こちらも皆さんは編集しないようにしましょう。
 * .gitpod.Dockerfile, .gitpod.yml: 実行環境の docker 設定および extension 設定。`よくわからない場合は、編集しないように`。 (参考：[C/C++](https://www.gitpod.io/docs/languages/cpp/), [.gitpod.yml](https://www.gitpod.io/docs/config-gitpod-file/))
-
 
