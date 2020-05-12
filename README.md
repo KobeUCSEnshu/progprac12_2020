@@ -5,6 +5,15 @@
 詳しい話は、[こちら](https://kobeucsenshu.github.io/ideinfo/index.html)の GitPod の項目ををみてください。
 以下、コンパイルの仕方などだけ、簡単にまとめます。
 
+
+## 課題
+
+課題は、`2kaime, 3kaime` など、講義の回数に応じたフォルダが順次生成されていく予定です。
+[こちら](https://kobeucsenshu.github.io/ideinfo/gitpod/howto.html#repository-)をみて、最新情報を repository から取得してください。
+
+
+## プログラムの実行
+
 プログラムの実行（ターミナル）
 
 1. 画面右下にターミナルがでていると思いますが、無い場合は、`Terminal` -> `New Terminal` でターミナルが開きます。
