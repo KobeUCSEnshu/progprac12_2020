@@ -33,7 +33,7 @@ gitpod /workspace/podTest/samples $
 プログラムの実行（GUI操作）
 
 1. `samples/hello.c` を開いてください。`samples` をクリックすると、directory の中のファイルも見えるはず。
-2. 実行タイププログラムを選んだ状態(`hello.c`選択）で、"Terminal"->"Run Build Task.." でコンパイル可能。選択肢が出ますので、`build gcc`をえらびましょう。同じ directory に `hello` ができれば成功
+2. 実行対象プログラムを Editor 上で選択した状態(`hello.c`選択）で、"Terminal"->"Run Build Task.." でコンパイル可能。選択肢が出ますので、`build gcc`をえらびましょう。同じ directory に `hello` ができれば成功
    * `注1`: 違うファイルを選択していると、コンパイルできません。
    * `注2`: explorer 側で選択するだけでなく、エディタのフォーカスがあっている必要があるようです。
 3. `Debug`->`Start Debugging` でデバッグ開始
